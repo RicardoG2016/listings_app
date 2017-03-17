@@ -1,0 +1,29 @@
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  background-repeat:no-repeat;
+  background-size:cover;
+  z-index: -1;
+}
+
+div.jumbotron.text-center{
+  padding-top: 35px;
+  color: white;
+  background-color: transparent;
+  text-shadow: 2px 2px 2px black;
+}
+
+.g-icon{
+  padding-top: 270px;
+}
+
+.g-icon:hover{
+  cursor: pointer;
+};
+
+p{
+  font-size: 27px;
+}
