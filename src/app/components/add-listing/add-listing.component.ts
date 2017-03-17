@@ -9,7 +9,7 @@ import {Router} from '@angular/router';
 })
 export class AddListingComponent implements OnInit {
   title:any;
-  owner:any;
+  link:any;
   city:any;
   bedrooms:any;
   price:any;
@@ -27,8 +27,8 @@ export class AddListingComponent implements OnInit {
   onAddSubmit(){
     let listing = {
       title: this.title,
-      city: this.title,
-      owner: this.owner,
+      city: this.city,
+      link: this.link,
       bedrooms:this.bedrooms,
       price: this.price,
       type: this.type
