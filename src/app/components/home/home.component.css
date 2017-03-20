@@ -17,13 +17,15 @@ div.jumbotron.text-center{
 }
 
 .g-icon{
-  padding-top: 270px;
+  padding-top: 260px;
 }
 
 .g-icon:hover{
   cursor: pointer;
-};
+}
 
-p{
+p#intro-content{
   font-size: 27px;
+  letter-spacing: 1px;
+  padding-top: 20px;
 }
