@@ -19,8 +19,6 @@ export class ListingComponent implements OnInit {
     private route:ActivatedRoute
   ) { }
 
-
-
   ngOnInit() {
     // Get ID
     this.id = this.route.snapshot.params['id'];
