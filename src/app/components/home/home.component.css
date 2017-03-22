@@ -2,11 +2,11 @@
   position: fixed; 
   top: 0; 
   left: 0; 
-  
-  /* Preserve aspet ratio */
   background-repeat:no-repeat;
   background-size:cover;
   z-index: -1;
+  height: 100vh;
+  width: 100vw;
 }
 
 div.jumbotron.text-center{
@@ -17,7 +17,7 @@ div.jumbotron.text-center{
 }
 
 .g-icon{
-  padding-top: 260px;
+  padding-top: 30%;
 }
 
 .g-icon:hover{

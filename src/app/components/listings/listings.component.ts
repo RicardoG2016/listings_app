@@ -6,6 +6,7 @@ import {FirebaseService} from '../../services/firebase.service';
   templateUrl: './listings.component.html',
   styleUrls: ['./listings.component.css']
 })
+
 export class ListingsComponent implements OnInit {
   listings:any;
 
