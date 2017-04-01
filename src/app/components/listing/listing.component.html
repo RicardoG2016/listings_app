@@ -16,8 +16,8 @@
         <li class="list-group-item">Bedrooms: {{listing.bedrooms}}</li>
         <li class="list-group-item">Link: <a target="blank_" href="{{listing.link}}">Complete Listing</a></li>
       </ul>
-      <a href="#" class="btn btn-default">Edit</a>
-      <a href="#" class="btn btn-danger">Delete</a>
+      <a class="btn btn-default" [routerLink]="['/edit-listing/'+listing.$key]">Edit</a>
+      <a (click)="onDeleteClick()" class="btn btn-danger">Delete</a>
     </div>
 
   </div>

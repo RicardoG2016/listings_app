@@ -10,10 +10,12 @@ export class FirebaseService {
 
   constructor(private af: AngularFire) {
     this.folder = 'listingimages';
+    // code in the line below was moved from the get listing to be DRY.
+    this.listings = this.af.database.list('/listings') as FirebaseListObservable<Listing[]>
   }
 
   getListings(){
-    this.listings = this.af.database.list('/listings') as FirebaseListObservable<Listing[]>
+  // this.listings that appears in constructor was removed from here and added there to be DRY.
     return this.listings;
   }
 
@@ -35,6 +37,14 @@ export class FirebaseService {
       });
     }
   }
+
+  updateListing(id, listing){
+    return this.listings.update(id, listing);
+  }
+
+  deleteListing(id){
+    return this.listings.remove(id);
+  }  
 
 }
 

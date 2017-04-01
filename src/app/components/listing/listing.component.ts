@@ -31,10 +31,19 @@ export class ListingComponent implements OnInit {
       storageRef.child(listing.path).getDownloadURL().then((url) => {
         // Set image url
         this.imageUrl = url;
+        
       }).catch((error) => {
         console.log(error);
       });
     });
   }
+
+  onDeleteClick(){
+    this.firebaseService.deleteListing(this.id);
+    this.router.navigate(['/listings']);
+  }
+
+
+
 
 }
