@@ -1,12 +1,17 @@
 # Listings App
 
-The Angular2 app allows users to login with Google and list real estate listings.
+##Keep a list of real estate listings you're considering to buy.
+###Full CRUD functionality is available and your data will be saved.
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+##The Angular2 app leverages:
+- Google Firebase, authentication, storage, database, functions
+- Heroku hosting
 
-## Launch App Directions
-Have the latest version of Node.js and Angular2 installed.
- 
-Run `ng serve` for a dev server. 
-Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+
+---
+
+Visit the link below to view the app:
+
+(https://angular-listing-app.herokuapp.com/)
 
