@@ -6,6 +6,6 @@
   <div class="container">
     <h1>Dream Home Listings</h1>
     <p id="intro-content">Keep a list of incredible homes currently for sale.</p>
-    <a (click)="login()"><img class="g-icon" src="assets/img/google.png"></a>
+    <a *ngIf="!(af.auth | async)" (click)="login()"><img class="g-icon" src="assets/img/google.png"></a>
   </div>
 </div>
