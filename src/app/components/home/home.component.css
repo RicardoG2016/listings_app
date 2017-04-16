@@ -28,4 +28,9 @@ p#intro-content{
   font-size: 27px;
   letter-spacing: 1px;
   padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.in-btn{
+  margin-top: 25%;
 }

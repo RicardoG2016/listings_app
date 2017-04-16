@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFire } from 'angularfire2';
 import {FlashMessagesService} from 'angular2-flash-messages';
+import { AddListingComponent } from '../add-listing/add-listing.component';
 
 @Component({
   selector: 'app-home',
