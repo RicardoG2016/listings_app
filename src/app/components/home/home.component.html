@@ -5,7 +5,7 @@
 <div class="jumbotron text-center">
   <div class="container">
     <h1>Dream Home Listings</h1>
-    <p id="intro-content">Keep a list of incredible homes currently for sale.</p>
+    <p id="intro-content">View a list of incredible homes currently for sale.</p>
     <a *ngIf="!(af.auth | async)" (click)="login()"><img class="g-icon" src="assets/img/google.png"></a>
     <button *ngIf="(af.auth | async)" [routerLink]="['/add-listing']" type="button" class="btn btn-default btn-lg in-btn">Add Listing</button>
   </div>
