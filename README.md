@@ -1,15 +1,19 @@
 # Listings App
 
-## Keep a list of real estate listings you're considering to buy.
-### Full CRUD functionality is available and your data will be saved.
+Review a list of real estate listings available for sale. View, add, edit, or delete listings as you please.
 
-## The Angular2 app leverages:
-- Google Firebase, authentication, storage, database, functions
-- Heroku hosting
+
+### The Listing App was built with:
+- Angular 2 cli
+- Google Firebase:
+  - Authentication
+  - Storage
+  - Database
+  - Hosting
 
 ---
 
-Visit the link below to view the app:
+Try it Out!
 
-<https://angular-listing-app.herokuapp.com/>
+<https://listings-285f1.firebaseapp.com/>
 
