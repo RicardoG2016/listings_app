@@ -8,5 +8,6 @@
     <p id="intro-content">View a list of incredible homes currently for sale.</p>
     <a *ngIf="!(af.auth | async)" (click)="login()"><img class="g-icon" src="assets/img/google.png"></a>
     <button *ngIf="(af.auth | async)" [routerLink]="['/add-listing']" type="button" class="btn btn-default btn-lg in-btn">Add Listing</button>
+    <button *ngIf="(af.auth | async)" [routerLink]="['/listings']" type="button" class="btn btn-default btn-lg in-btn">View Listing</button>
   </div>
 </div>
